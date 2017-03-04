@@ -15,10 +15,10 @@ Below is a summary of features in this library. It is not extensive, and contain
 aren't great and probably should be removed.
 
 * Rendering
-** **Mrag2.CustomSpriteBatch**: Extended SpriteBatch that allows for camera movements and zooming (using scale) and some other useful features such as basic lighting.
-** **Mrag2.LigthSource**: A light source for CustomSpriteBatch.
-** **Mrag2.BMFont**: Loads and renders fonts generated with BMFont.
-** **Mrag2.SpecialColor**: Static class containing some special color values.
+  * **Mrag2.CustomSpriteBatch**: Extended SpriteBatch that allows for camera movements and zooming (using scale) and some other useful features such as basic lighting.
+  * **Mrag2.LigthSource**: A light source for CustomSpriteBatch.
+  * **Mrag2.BMFont**: Loads and renders fonts generated with BMFont.
+  * **Mrag2.SpecialColor**: Static class containing some special color values.
 * Math
 ** **Mrag2.Easing**: Lots of easing functions for smooth animations.
 ** **Mrag2.Line**: Class definiting a line segment between point A and B.
