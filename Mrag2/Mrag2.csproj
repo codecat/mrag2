@@ -76,7 +76,6 @@
     <Compile Include="Tools\Checksum.cs" />
     <Compile Include="Tools\Config.cs" />
     <Compile Include="Tools\ContentRegister.cs" />
-    <Compile Include="Tools\DetectLanguage.cs" />
     <Compile Include="Tools\Hacks.cs" />
     <Compile Include="Tools\JSON.cs" />
     <Compile Include="Tools\LibraryChecks.cs" />

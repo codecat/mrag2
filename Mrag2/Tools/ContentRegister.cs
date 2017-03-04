@@ -15,7 +15,7 @@ namespace Mrag2
   /// <summary>
   /// Static class that can be used for easy cached content.
   /// </summary>
-  public class ContentRegister
+  public static class ContentRegister
   {
     public static ContentManager RootContent = null;
 
@@ -204,6 +204,11 @@ namespace Mrag2
 			}
 		}
 
+		/// <summary>
+		/// Get a SoundEffect from cache or from disk.
+		/// </summary>
+		/// <param name="strFilename">The content filename.</param>
+		/// <returns>The SoundEffect.</returns>
 		public static SoundEffect Sound(string strFilename)
 		{
 			strFilename = SanitizeInput(strFilename);
@@ -221,6 +226,11 @@ namespace Mrag2
 			}
 		}
 
+		/// <summary>
+		/// Get a Song from cache or from disk.
+		/// </summary>
+		/// <param name="strFilename">The content filename.</param>
+		/// <returns>The Song.</returns>
 		public static Song Music(string strFilename)
 		{
 			strFilename = SanitizeInput(strFilename);

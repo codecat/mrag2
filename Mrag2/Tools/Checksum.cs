@@ -53,7 +53,7 @@ namespace Mrag2
     /// </summary>
     /// <param name="Filename">The filename.</param>
     /// <returns>The MD5 hash in hexadecimal format.</returns>
-    public static String FileMD5(String Filename)
+    public static string FileMD5(String Filename)
     {
       FileStream File = new FileStream(Filename, FileMode.Open);
       MD5 md5 = new MD5CryptoServiceProvider();
