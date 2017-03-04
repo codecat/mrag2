@@ -20,50 +20,50 @@ aren't great and probably should be removed.
   * **Mrag2.BMFont**: Loads and renders fonts generated with BMFont.
   * **Mrag2.SpecialColor**: Static class containing some special color values.
 * Math
-** **Mrag2.Easing**: Lots of easing functions for smooth animations.
-** **Mrag2.Line**: Class definiting a line segment between point A and B.
-** **Mrag2.RayTrace**: Class to perform a RayTrace. Make sure you derive objects you want to be able to hit from RayBox and add them to the static RayBoxes field in this class. (This needs improvement, could use a QuadTree for example)
-** **Mrag2.RotRect**: Rotatable rectangle.
-** **Mrag2.SpecialMath**: Static class with some useful Math functions.
-*** SmoothStep and SmootherStep (see also **Mrag2.Easing**)
-*** IntersectionPoint
-*** LineSegmentsIntersect and LineSegmentsIntersectAt
-*** NormalizedOrientationFromDegrees
+  * **Mrag2.Easing**: Lots of easing functions for smooth animations.
+  * **Mrag2.Line**: Class definiting a line segment between point A and B.
+  * **Mrag2.RayTrace**: Class to perform a RayTrace. Make sure you derive objects you want to be able to hit from RayBox and add them to the static RayBoxes field in this class. (This needs improvement, could use a QuadTree for example)
+  * **Mrag2.RotRect**: Rotatable rectangle.
+  * **Mrag2.SpecialMath**: Static class with some useful Math functions.
+    * SmoothStep and SmootherStep (see also **Mrag2.Easing**)
+    * IntersectionPoint
+    * LineSegmentsIntersect and LineSegmentsIntersectAt
+    * NormalizedOrientationFromDegrees
 * Pathfinding (AStar implementation)
-** **Mrag2.Pathfinding.PathFinding**: Class for finding a path from point A to B.
+  * **Mrag2.Pathfinding.PathFinding**: Class for finding a path from point A to B.
 * Paths
-** **Mrag2.Path**: Class used for automated paths, which can be smoothed or a bezier curve.
+  * **Mrag2.Path**: Class used for automated paths, which can be smoothed or a bezier curve.
 * XML
-** **Mrag2.XML.XmlFile**: Custom XML parser which stores its tags in-memory for easy access.
-** **Mrag2.XML.XmlTag**: A tag in an XML file.
+  * **Mrag2.XML.XmlFile**: Custom XML parser which stores its tags in-memory for easy access.
+  * **Mrag2.XML.XmlTag**: A tag in an XML file.
 * Input
-** **Mrag2.Input**: Static class for checking button states. Contains methods like KeyDown, KeyPressed, KeyReleased.
+  * **Mrag2.Input**: Static class for checking button states. Contains methods like KeyDown, KeyPressed, KeyReleased.
 * Tools
-** **Mrag2.ContentRegister**: Static class that can be used for easy cached content:
-*** AnimationSheet and AnimationSheetCollection
-*** BMFont
-*** Generated gradient textures
-*** Texture2D
-*** SpriteFont
-*** SoundEffect
-*** Song
-** **Mrag2.AnimationSheet**: Define spritesheets as animation for rendering from an XML file.
-** **Mrag2.Checksun**: Compute hashes from files or strings.
-** **Mrag2.Config**: Simple parsing of ini file-formats.
-** **Mrag2.Hacks**: Extension methods for interacting with private members of objects.
-** **Mrag2.JSON**: Json encoding/decoding implementation, based on an implementation by NHaml.
-** **Mrag2.LibraryChecks**: Performs a check whether Monogame is installed on the system. This is useful for detecting errors before the game launches.
-** **Mrag2.PrecisionStopwatch**: High precision stopwatch, able to measure time in microseconds.
+  * **Mrag2.ContentRegister**: Static class that can be used for easy cached content:
+    * AnimationSheet and AnimationSheetCollection
+    * BMFont
+    * Generated gradient textures
+    * Texture2D
+    * SpriteFont
+    * SoundEffect
+    * Song
+  * **Mrag2.AnimationSheet**: Define spritesheets as animation for rendering from an XML file.
+  * **Mrag2.Checksun**: Compute hashes from files or strings.
+  * **Mrag2.Config**: Simple parsing of ini file-formats.
+  * **Mrag2.Hacks**: Extension methods for interacting with private members of objects.
+  * **Mrag2.JSON**: Json encoding/decoding implementation, based on an implementation by NHaml.
+  * **Mrag2.LibraryChecks**: Performs a check whether Monogame is installed on the system. This is useful for detecting errors before the game launches.
+  * **Mrag2.PrecisionStopwatch**: High precision stopwatch, able to measure time in microseconds.
 * Extensions
-** **Mrag2.Extensions**
-*** string: ParseVector, ParseRectangle
-*** StreamReader: ReadChar, PeekChar, Seek, ReadString, ReadUntil, Expect
+  * **Mrag2.Extensions**
+    * string: ParseVector, ParseRectangle
+    * StreamReader: ReadChar, PeekChar, Seek, ReadString, ReadUntil, Expect
 * GUI (experimental)
-** **Mrag2.GUI**: Static class for an "immediate" GUI API.
+  * **Mrag2.GUI**: Static class for an "immediate" GUI API.
 * 3D (experimental)
-** **Mrag2._3D**: A very basic 3D rendering class.
-** **Mrag2._Model**: A 3D model.
-** **Mrag2._Texture**: A 3D texture.
+  * **Mrag2._3D**: A very basic 3D rendering class.
+  * **Mrag2._Model**: A 3D model.
+  * **Mrag2._Texture**: A 3D texture.
 
 ## Getting started
 
