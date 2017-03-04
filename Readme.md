@@ -16,12 +16,12 @@ aren't great and probably should be removed.
 
 * Rendering
   * **Mrag2.CustomSpriteBatch**: Extended SpriteBatch that allows for camera movements and zooming (using scale) and some other useful features such as basic lighting.
-  * **Mrag2.LigthSource**: A light source for CustomSpriteBatch.
+  * **Mrag2.LightSource**: A light source for CustomSpriteBatch.
   * **Mrag2.BMFont**: Loads and renders fonts generated with BMFont.
   * **Mrag2.SpecialColor**: Static class containing some special color values.
 * Math
   * **Mrag2.Easing**: Lots of easing functions for smooth animations.
-  * **Mrag2.Line**: Class definiting a line segment between point A and B.
+  * **Mrag2.Line**: Class defining a line segment between point A and B.
   * **Mrag2.RayTrace**: Class to perform a RayTrace. Make sure you derive objects you want to be able to hit from RayBox and add them to the static RayBoxes field in this class. (This needs improvement, could use a QuadTree for example)
   * **Mrag2.RotRect**: Rotatable rectangle.
   * **Mrag2.SpecialMath**: Static class with some useful Math functions.
@@ -48,7 +48,7 @@ aren't great and probably should be removed.
     * SoundEffect
     * Song
   * **Mrag2.AnimationSheet**: Define spritesheets as animation for rendering from an XML file.
-  * **Mrag2.Checksun**: Compute hashes from files or strings.
+  * **Mrag2.Checksum**: Compute hashes from files or strings.
   * **Mrag2.Config**: Simple parsing of ini file-formats.
   * **Mrag2.Hacks**: Extension methods for interacting with private members of objects.
   * **Mrag2.JSON**: Json encoding/decoding implementation, based on an implementation by NHaml.
